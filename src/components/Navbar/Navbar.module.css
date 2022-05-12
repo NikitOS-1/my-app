@@ -1,0 +1,8 @@
+.navbar {
+    background-color: forestgreen;
+    grid-area: N;
+}
+
+.item :hover {
+    color: azure;
+}

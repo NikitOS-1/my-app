@@ -1,5 +1,6 @@
 .app-wrapper {
     margin: 0 auto;
+    width: 1200px;
     background-color: aqua;
     display: grid;
     grid-template-areas:
@@ -8,23 +9,4 @@
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
     grid-gap: 10px;
-}
-
-.header {
-    background-color: forestgreen;
-    grid-area: H;
-}
-
-.header img {
-    width: 60px;
-}
-
-.nav {
-    background-color: forestgreen;
-    grid-area: N;
-}
-
-.content {
-    grid-area: C;
-    background-color: forestgreen;
 }
