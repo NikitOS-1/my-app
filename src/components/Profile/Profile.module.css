@@ -1,4 +1,4 @@
-.content {
+.item {
     grid-area: C;
-    background-color: forestgreen;
+    background-color:  rgb(247, 255, 140);
 }

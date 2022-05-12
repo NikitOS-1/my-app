@@ -5,11 +5,11 @@ const Navbar = () => {
     return (
         <nav className={style.navbar}>
             <div className={style.item}>
-                <a href='#'>Message</a>
+                <a href='#'>Profile</a>
             </div>
 
             <div className={style.item}>
-                <a href='#'>Profile</a>
+                <a href='#'>Messages</a>
             </div>
 
             <div className={style.item}>
@@ -17,7 +17,11 @@ const Navbar = () => {
             </div>
 
             <div className={style.item}>
-                <a href='#'>Post</a>
+                <a href='#'>Music</a>
+            </div><br></br>
+
+            <div className={style.item}>
+                <a href='#'>Settings</a>
             </div>
         </nav>
     );
