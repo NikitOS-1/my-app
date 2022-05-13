@@ -1,7 +1,7 @@
 import React from "react";
-import style from "./MyPost.module.css";
+import style from "./AddPost.module.css";
 
-const MyPost = () => {
+const AddPost = () => {
     return (
         <div className={style.item}>
             <input></input>
@@ -10,4 +10,4 @@ const MyPost = () => {
     );
 };
 
-export default MyPost;
+export default AddPost;
