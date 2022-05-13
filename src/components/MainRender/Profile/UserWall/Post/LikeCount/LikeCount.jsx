@@ -3,12 +3,10 @@ import style from "./LikeCount.module.css";
 
 
 
-const LikeCount = (props) => {
-    let count = 0;
-
+const LikeCount = () => {
     return (
         <div className={style.item}>
-            <p>{count}</p>
+            <p>1</p>
             <button>Like</button>
         </div>
     );
