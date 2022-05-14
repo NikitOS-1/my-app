@@ -11,7 +11,7 @@ import Settings from './Settings/Settings';
 const MainRender = (props) => {
   return (
     <BrowserRouter>
-      <div className={style.item}>
+      <main className={style.item}>
         <Routes>
           <Route path='/profile' element={<Profile />} />
           <Route path='/messages' element={<Messages />} />
@@ -19,7 +19,7 @@ const MainRender = (props) => {
           <Route path='/music' element={<Music />} />
           <Route path='/settings' element={<Settings />} />
         </Routes>
-      </div>
+      </main>
     </BrowserRouter>
   )
 }

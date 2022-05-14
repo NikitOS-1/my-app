@@ -1,30 +1,40 @@
 import React from "react";
-import style from "./Navbar.module.css";
+import { Link, NavLink, Outlet } from "react-router-dom";
+// import style from "./Navbar.module.css";
 
-const Navbar = () => {
+
+const Navbar = (props) => {
+    debugger;
     return (
-        <nav className={style.navbar}>
-            <div className={style.item}>
-                <a href='/profile'>Profile</a>
-            </div>
-
-            <div className={style.item}>
-                <a href='/messages'>Messages</a>
-            </div>
-
-            <div className={style.item}>
-                <a href='/news'>News</a>
-            </div>
-
-            <div className={style.item}>
-                <a href='/music'>Music</a>
-            </div><br></br>
-
-            <div className={style.item}>
-                <a href='/settings'>Settings</a>
-            </div>
+        <nav>
+            <NavLink to='/messages'>Messages</NavLink>
+            <Outlet />
         </nav>
+        
     );
+    debugger;
 };
 
 export default Navbar;
+
+/* <nav className={style.navbar}>
+    <div className={style.item}>
+        <a href='/profile'>Profile</a>
+    </div>
+
+    <div className={style.item}>
+
+    </div>
+
+    <div className={style.item}>
+        <NavLink to='/news'>News</NavLink>
+    </div>
+
+    <div className={style.item}>
+        <NavLink to='/music'>Music</NavLink>
+    </div> <br> </br>
+
+    <div className={style.item}>
+        <NavLink to='/settings'>Settings</NavLink>
+    </div>
+</nav> */

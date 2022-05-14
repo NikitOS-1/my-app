@@ -5,7 +5,7 @@ import img from "./RSN_free-file.png";
 const Header = () => {
     return (
         <header className={style.header}>
-            <img src={img}></img>
+            <img src={img} alt='logo'></img>
         </header>
     );
 };
